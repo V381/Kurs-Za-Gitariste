@@ -1,1 +1,1 @@
-header{background:linear-gradient(to bottom, #1a1a1a, #333);transition:background .5s ease;padding:10px;text-align:center;height:100vh;color:#fff;display:flex;flex-direction:column;min-height:100vh}header h1{text-align:center;font-size:3rem}
+header{background:linear-gradient(to bottom, #1a1a1a, #333);transition:background .5s ease;text-align:center;height:100vh;color:#fff;display:flex;justify-content:center;align-items:center}header h1{font-size:3rem}
