@@ -1,0 +1,204 @@
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+    position:relative;
+}
+
+.welcome-section h2 {
+    font-size: 3.5rem; 
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.welcome-section p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.scroll-down-to-content{
+    position:absolute;
+    bottom:0px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:3rem;
+    color:#000000;
+    cursor:pointer
+}
+
+@media (max-width: 35rem) {
+    
+    .scroll-down-to-content {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    header {
+      position: relative;
+      z-index: 1; 
+    }
+  
+    .scroll-target {
+      margin-bottom: 200px;
+    }
+  }
+
+  .welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position:relative;
+    padding: 100px;
+}
+
+.learning-path {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    padding: 100px;
+}
+
+.learning-path h2 {
+    font-size: 3.5rem; 
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.learning-path h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.learning-path ul {
+    text-align: left;
+}
+
+.learning-path ul li {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.container > a > img {
+    width: 100%;
+}
+
+.container h3 {
+    text-align: center
+}
+
+.learning-path p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.cta-button-green {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: darkgreen;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.cta-button-green:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.my-books {
+    text-align: center;
+}
+
+.book-info p {
+    margin-bottom: 2rem;
+}
+
+.web-application-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+    position:relative;
+}
+
+.web-application-section p {
+    font-size: 3.5rem; 
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.fa-youtube {
+    font-size: 19rem;
+    color: red;
+}
+
+.sales-pitch {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.sales-pitch h2 {
+    font-size: 3rem;
+}
+.sales-pitch {
+    p {
+        font-size: 2rem;
+    }
+}
