@@ -1,0 +1,17 @@
+.center {
+    text-align: center;
+}
+
+.treble-clef {
+    font-size: 10em;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
