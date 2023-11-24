@@ -305,3 +305,9 @@ footer h3 {
     text-align: center;
     font-size: 3rem;
 }
+
+footer p {
+    margin-top: 1rem;
+    text-align: center;
+    font-style: italic;
+}
