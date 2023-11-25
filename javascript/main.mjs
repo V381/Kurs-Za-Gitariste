@@ -6,4 +6,5 @@ import { scrollFromHeader } from "./scroll-from-header/_scroll-from-header.mjs";
     scrollFromHeader(".web-application-section" , ".scroll-down-web-app");
     scrollFromHeader(".scroll-to-path-second", ".scroll-down-to-content");
     scrollFromHeader(".web-app-scroll", ".scroll-down-to-youtube");
+    scrollFromHeader(".book-of-shred", ".scroll-down-to-book-of-shred");
 })();
