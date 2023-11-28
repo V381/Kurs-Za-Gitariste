@@ -1,0 +1,17 @@
+
+.nav-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+    color: #fff;
+    text-align: center;
+    background-color: #333;
+    padding: 2rem;
+}
+
+img {
+    float: left;
+    margin-right: 1.1rem;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+}
