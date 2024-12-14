@@ -1,0 +1,127 @@
+/* New styles for harmonija page - add to your main.css */
+.content-introduction {
+    background-color: #333;
+    color: #fff;
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+
+.content-introduction h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.content-introduction p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.content-introduction ul {
+    font-size: 1.3rem;
+    list-style: none;
+    padding: 0;
+}
+
+.content-introduction ul li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.content-introduction ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #e74c3c;
+}
+
+.web-application-section {
+    padding: 4rem 0;
+    background-color: #fff;
+}
+
+.web-application-section .video-title {
+    font-size: 2rem !important;
+    color: #333;
+    margin: 2rem 0;
+    font-weight: bold;
+}
+
+.additional-info {
+    background-color: #333;
+    color: #fff;
+    padding: 4rem 0;
+    margin-top: 2rem;
+}
+
+.additional-info h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.additional-info p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.additional-info ul {
+    font-size: 1.3rem;
+    list-style: none;
+    padding: 0;
+}
+
+.additional-info ul li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.additional-info ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #e74c3c;
+}
+
+.header-bg h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.header-bg p {
+    font-size: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content-introduction h2,
+    .additional-info h2 {
+        font-size: 2.5rem;
+    }
+
+    .content-introduction p,
+    .additional-info p {
+        font-size: 1.3rem;
+    }
+
+    .content-introduction ul,
+    .additional-info ul {
+        font-size: 1.2rem;
+    }
+
+    .web-application-section .video-title {
+        font-size: 1.5rem !important;
+    }
+
+    .header-bg h1 {
+        font-size: 3rem;
+    }
+
+    .header-bg p {
+        font-size: 1.5rem;
+    }
+}

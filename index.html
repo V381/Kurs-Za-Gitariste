@@ -17,21 +17,50 @@
 <body>
     <nav>
         <div class="navbar">
-          <ul class="nav-menu">
-            <li class="nav-item"><a href="#" class="nav-link">Teorija</a></li>
-            <li class="nav-item"><a href="tehnika/tehnika.html" class="nav-link">Tehnika</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pesme</a></li>
-            <li class="nav-item"><a href="o-meni.html" class="nav-link">O meni</a></li>
-          </ul>
+            <a href="/" class="nav-logo">Lekcije Za Gitaru</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">Početna</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Knjige <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#nivo1">Nivo 1</a></li>
+                        <li><a href="#nivo2">Nivo 2</a></li>
+                        <li><a href="#shred">Book of Shred</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Lekcije <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="teorija/teorija.html">Teorija</a></li>
+                        <li><a href="tehnika/tehnika.html">Tehnika</a></li>
+                        <li><a href="pesme.html">Pesme</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#aplikacije" class="nav-link">Aplikacije</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/o-meni.html" class="nav-link">O meni</a>
+                </li>
+            </ul>
         </div>
-      
         <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-      </nav>
+    </nav>
 
+    
+    <div class="breadcrumbs">
+        <div class="breadcrumbs-container">
+            <a href="/" class="breadcrumb-item">Početna</a>
+            <span class="breadcrumb-separator"><i class="fas fa-chevron-right"></i></span>
+        </div>
+    </div>
+    
 
     <header class="header-bg">
         
@@ -87,7 +116,7 @@
             </div>
             <div class="my-books">
                 <div class="book-info">
-                    <h2>Lekcije za gitaru - Nivo 1</h2>
+                    <h2 id="nivo1">Lekcije za gitaru - Nivo 1</h2>
                     <p>
                         Moja knjiga "Lekcije za gitaru - Nivo 1" je savršen početak za sve koji žele da nauče svirati gitaru. Ova knjiga je specijalno dizajnirana za početnike i pruža temeljno razumevanje osnovnih akorda, tehnika sviranja i melodija. Bez obzira da li ste potpuni početnik ili već imate neko iskustvo, ova knjiga će vam pomoći da razvijete svoje veštine i uživate u sviranju gitare.
                     </p>
@@ -99,7 +128,7 @@
                 <i class="fas fa-chevron-down scroll-down-web-app"></i>
         </section>
 
-        <section class="web-application-section">
+        <section class="web-application-section" id="aplikacije">
             <p>Web aplikacije</p>
             <span> (Klik ili touch na slici da se otvori aplikacija)</span>
             <div class="container">
@@ -136,7 +165,7 @@
             </div>    
             <div class="my-books">
                 <div class="book-info">
-                    <h2>Lekcije za gitaru - Nivo 2</h2>
+                    <h2 id="nivo2">Lekcije za gitaru - Nivo 2</h2>
                 <p>
                     Za one koji su već savladali osnove sviranja gitare, predstavljam "Lekcije za gitaru - Nivo 2". Ova knjiga je namenjena naprednim gitaristima koji žele da podignu svoje veštine na viši nivo. U njoj ćete pronaći izazovnije akorde, kompleksnije tehnike sviranja i fascinantne melodije koje će vas inspirisati da postanete virtuoz gitare. Ovo je korak dalje u vašem muzičkom putovanju!
                 </p>
@@ -182,7 +211,7 @@
         </section>
 
         <section class="learning-path book-of-shred">
-            <h2>BONUS: Priručnik sa mnogo lekcija za SHRED stil svirke.</h2>
+            <h2 id="shred">BONUS: Priručnik sa mnogo lekcija za SHRED stil svirke.</h2>
             <div class="container">
                 <a href="https://pavle381.gumroad.com/l/book-of-shred-unreveal-secrets"><img src="assets/shred.png" alt="lekcije-za-gitaru"></a>
                 <p>Ovo je priručnik koji je moj učenik zapisivao tokom dolazaka na časove.</p>

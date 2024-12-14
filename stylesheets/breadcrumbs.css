@@ -1,0 +1,57 @@
+.breadcrumbs {
+    background-color: #333;
+    padding: 0.75rem 0;
+    margin-top: 75px; /* To account for fixed navbar */
+    border-bottom: 1px solid #e0e0e0;
+    position: fixed; /* Make breadcrumbs fixed like the navbar */
+    width: 100%;
+    z-index: 999; /* Below navbar but above content */
+}
+
+.breadcrumbs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.breadcrumb-item {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb-item:hover {
+    color: #e74c3c;
+}
+
+.breadcrumb-item.active {
+    color: white;
+    font-weight: 500;
+}
+
+.breadcrumb-separator {
+    color: #999;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Add padding to main content to account for fixed breadcrumbs */
+main {
+    padding-top: calc(75px + 3rem); /* navbar height + breadcrumbs height */
+}
+
+@media (max-width: 768px) {
+    .breadcrumbs {
+        padding: 0.5rem 0;
+    }
+    
+    .breadcrumb-item {
+        font-size: 0.8rem;
+    }
+}
