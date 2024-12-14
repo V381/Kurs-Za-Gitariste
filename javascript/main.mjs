@@ -85,3 +85,38 @@ document.querySelectorAll(".nav-link:not(.dropdown > .nav-link)").forEach((link)
 );
 
 
+
+function initializeLoadingHandler() {
+  document.addEventListener('DOMContentLoaded', function() {
+    const spinnerOverlay = document.createElement('div');
+    spinnerOverlay.className = 'spinner-overlay';
+    spinnerOverlay.innerHTML = '<div class="spinner"></div>';
+    document.body.appendChild(spinnerOverlay);
+});
+
+// Show content when everything is loaded
+window.addEventListener('load', function() {
+    document.body.style.visibility = 'visible';
+    const spinner = document.querySelector('.spinner-overlay');
+    if (spinner) {
+        spinner.style.opacity = '0';
+        setTimeout(() => {
+            spinner.remove();
+        }, 300);
+    }
+});
+
+// Fallback: Show content if loading takes too long
+setTimeout(function() {
+    document.body.style.visibility = 'visible';
+    const spinner = document.querySelector('.spinner-overlay');
+    if (spinner) {
+        spinner.style.opacity = '0';
+        setTimeout(() => {
+            spinner.remove();
+        }, 300);
+    }
+}, 5000);
+}
+
+initializeLoadingHandler();
