@@ -1,0 +1,72 @@
+.scale-diagram {
+    max-width: 100%;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 2rem;
+    text-align: center;
+}
+
+.scale-diagram img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.diagram-description {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+.scale-pattern {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    background: #f8f9fa;
+}
+
+.scale-notes {
+    font-family: monospace;
+    background: #333;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+}
+
+.technique-section {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 4rem; /* Povećan margin između sekcija */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    clear: both; /* Osigurava da nema preklapanja */
+    overflow: hidden; /* Za clearfix */
+}
+
+.scale-diagram {
+    max-width: 50%;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 2rem;
+    text-align: center;
+    position: relative; /* Za bolju kontrolu pozicioniranja */
+}
+
+.scale-diagram img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
