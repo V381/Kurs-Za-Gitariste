@@ -24,7 +24,8 @@ function generateBreadcrumbs() {
       'o-meni': { name: 'O Meni', path: '/o-meni.html' },
       'alternate-picking': { name: 'Alternate Picking', path: '/tehnika/alternate-picking.html' },
       'sweep-picking': { name: 'Sweep Picking', path: '/tehnika/sweep-picking.html' },
-      'legato': { name: 'Legato', path: '/tehnika/legato.html' }
+      'legato': { name: 'Legato', path: '/tehnika/legato.html' },
+      'aplikacije': { name: 'Aplikacije', path: '/aplikacije/aplikacije.html' }
   };
 
   pathSegments.forEach((segment, index) => {
