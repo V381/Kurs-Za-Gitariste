@@ -25,7 +25,8 @@ function generateBreadcrumbs() {
       'alternate-picking': { name: 'Alternate Picking', path: '/tehnika/alternate-picking.html' },
       'sweep-picking': { name: 'Sweep Picking', path: '/tehnika/sweep-picking.html' },
       'legato': { name: 'Legato', path: '/tehnika/legato.html' },
-      'aplikacije': { name: 'Aplikacije', path: '/aplikacije/aplikacije.html' }
+      'aplikacije': { name: 'Aplikacije', path: '/aplikacije/aplikacije.html' },
+      "knjiga": {name: "Knjiga", path: '/knjiga/lekcije-za-gitaru-nivo-1.html'}
   };
 
   pathSegments.forEach((segment, index) => {
