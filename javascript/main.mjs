@@ -20,7 +20,7 @@ function generateBreadcrumbs() {
       'harmonija': { name: 'Harmonija', path: '/teorija/harmonija.html' },
       'intervali': { name: 'Intervali', path: '/teorija/intervali.html' },
       'skale': { name: 'Skale', path: '/teorija/skale.html' },
-      'pesme': { name: 'Pesme', path: '/pesme.html' },
+      'pesme': { name: 'Pesme', path: '/pesme/pesme.html' },
       'o-meni': { name: 'O Meni', path: '/o-meni.html' },
       'alternate-picking': { name: 'Alternate Picking', path: '/tehnika/alternate-picking.html' },
       'sweep-picking': { name: 'Sweep Picking', path: '/tehnika/sweep-picking.html' },

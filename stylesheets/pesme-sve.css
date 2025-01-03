@@ -1,0 +1,95 @@
+.song-details {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.song-details h2 {
+    color: #e74c3c;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 0.5rem;
+}
+
+.song-info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    margin: 2rem 0;
+    color: #333;
+}
+
+.song-info dt {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.song-info dd {
+    margin: 0;
+}
+
+.song-description {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.song-description a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.song-description a:hover {
+    text-decoration: underline;
+}
+
+.lesson-link {
+    display: inline-block;
+    background: #e74c3c;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin: 2rem auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-link:hover {
+    background: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.iframe-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .song-info {
+        grid-template-columns: 1fr;
+    }
+    
+    .song-details {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .lesson-link {
+        padding: 0.8rem 1.5rem;
+        font-size: 1.1rem;
+    }
+}

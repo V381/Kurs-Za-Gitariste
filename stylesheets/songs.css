@@ -1,0 +1,163 @@
+/* Song page specific styles */
+.tehnike h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.tehnike h3 {
+    color: #e74c3c;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 0.5rem;
+}
+
+.tehnike .song-list {
+    list-style: none;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tehnike .song-list li {
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.tehnike .song-list li:hover {
+    transform: translateX(10px);
+}
+
+.tehnike .song-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.tehnike .song-list a:hover {
+    background: rgba(231, 76, 60, 0.2);
+    color: #e74c3c;
+}
+
+/* Genre sections styling */
+.tehnike > ul > li {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tehnike > ul > li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* Video section enhancements */
+.video-title {
+    font-size: 2rem !important;
+    font-weight: bold;
+    color: #333;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.iframe-container {
+    margin: 2rem auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .tehnike h2 {
+        font-size: 2rem;
+    }
+
+    .tehnike h3 {
+        font-size: 1.5rem;
+    }
+
+    .tehnike .song-list a {
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
+
+    .tehnike > ul > li {
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .video-title {
+        font-size: 1.5rem !important;
+    }
+}
+
+/* Animation for list items */
+.tehnike .song-list li {
+    opacity: 0;
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+.tehnike .song-list li:nth-child(1) { animation-delay: 0.1s; }
+.tehnike .song-list li:nth-child(2) { animation-delay: 0.2s; }
+.tehnike .song-list li:nth-child(3) { animation-delay: 0.3s; }
+.tehnike .song-list li:nth-child(4) { animation-delay: 0.4s; }
+.tehnike .song-list li:nth-child(5) { animation-delay: 0.5s; }
+.tehnike .song-list li:nth-child(6) { animation-delay: 0.6s; }
+.tehnike .song-list li:nth-child(7) { animation-delay: 0.7s; }
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover effects for clickable elements */
+.tehnike .song-list a:active {
+    transform: scale(0.98);
+}
+
+/* Loading animation for video */
+.iframe-wrapper {
+    position: relative;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.iframe-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 100%;
+    }
+}
