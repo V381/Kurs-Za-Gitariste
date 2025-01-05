@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Štimer za gitaru | Online štimer za akustičnu i električnu gitaru</title>
+    <meta name="description" content="Besplatan online štimer za gitaru. Precizno štimovanje svih žica gitare u realnom vremenu. Podržava E2, A2, D3, G3, B3, i E4 žice.">
+    <meta name="keywords" content="štimer za gitaru, gitara štimer, štimovanje gitare, online štimer, besplatan štimer, acoustic guitar tuner, električna gitara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Online Štimer za Gitaru">
+    <meta property="og:description" content="Besplatan i precizan štimer za gitaru. Štimujte svoju gitaru lako i brzo.">
+    <meta property="og:type" content="website">
+    <link type="text/css" rel="stylesheet" href="stimer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
+</head>
+<body>
+    <div class="tuner-container">
+        <h1>Štimer za Gitaru</h1>
+        <div class="note-display">--</div>
+        <div class="frequency-display">-- Hz</div>
+        <canvas id="tunerCanvas" width="300" height="300" class="tuner-canvas"></canvas>
+        <div class="string-buttons">
+            <button class="string-button" data-note="E2">Debela E</button>
+            <button class="string-button" data-note="A2">A</button>
+            <button class="string-button" data-note="D3">D</button>
+            <button class="string-button" data-note="G3">G</button>
+            <button class="string-button" data-note="B3">H</button>
+            <button class="string-button" data-note="E4">Tanka E</button>
+        </div>
+        <div class="controls">
+            <button id="startButton">Počni Štimovanje</button>
+        </div>
+
+        <div class="instructions">
+            <h2>Kako koristiti štimer</h2>
+            <ol>
+                <li>Kliknite na "Počni Štimovanje" i dozvolite pristup mikrofonu</li>
+                <li>Izaberite žicu koju želite da štimujete</li>
+                <li>Odsvirajte žicu i pratite iglu na šitmeru:
+                    <ul>
+                        <li>Kada je igla tacno na sredini - žica je naštimovana</li>
+                        <li>Ako je igla levo - žica je preniska, zategnite je</li>
+                        <li>Ako je igla desno - žica je previsoka, olabavite je</li>
+                    </ul>
+                </li>
+                <li>Čućete zvučni signal kada je žica tačno naštimovana</li>
+                <li>Ponovite za ostale žice</li>
+            </ol>
+            <p><strong>Napomena:</strong> Za najbolje rezultate, koristite u tihom okruženju i držite gitaru blizu mikrofona.</p>
+            <div class="controls">
+                <button class="cta-button-green"><a href="../aplikacije.html">KLIKNI OVDE da vidis jos aplikacija i gitarske lekcije</a></button>
+            </div>
+        </div>
+    </div>
+          
+    <script src="https://cdn.jsdelivr.net/npm/pitchy@2.4.2/dist/pitchy.min.js"></script>
+    <script src="stimer.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Online štimer za gitaru - Besplatna web aplikacija za precizno štimovanje gitare. Podržava standardno i alternativno štimovanje.">
+        <meta name="keywords" content="štimer za gitaru, online tuner, gitara, štimovanje gitare, web aplikacija">
+        <meta name="author" content="Pavle Paunovic">
+        <title>Štimer za Gitaru | Online Guitar Tuner | Lekcije Za Gitaru</title>
+        <link type="text/css" rel="stylesheet" href="../stylesheets/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="icon" type="image/x-icon" href="/assets/A.ico">
+    </head>
+    <body>
+        <nav>
+            <div class="navbar">
+              <ul class="nav-menu">
+                <li class="nav-item"><a href="/" class="nav-link">Knjige</a></li>
+                <li class="nav-item"><a href="../teorija/teorija.html" class="nav-link">Teorija</a></li>
+                <li class="nav-item"><a href="../pesme/pesme.html" class="nav-link">Pesme</a></li>
+                <li class="nav-item"><a href="../o-meni.html" class="nav-link">O meni</a></li>
+              </ul>
+            </div>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+        </nav>
+
+        <div class="breadcrumbs">
+            <div class="breadcrumbs-container">
+                <a href="/" class="breadcrumb-item">Početna</a>
+                <span class="breadcrumb-separator"><i class="fas fa-chevron-right"></i></span>
+                <a href="/aplikacije/aplikacije.html" class="breadcrumb-item">Aplikacije</a>
+                <span class="breadcrumb-separator"><i class="fas fa-chevron-right"></i></span>
+                <span class="breadcrumb-item active">Štimer za Gitaru</span>
+            </div>
+        </div>
+
+        <header class="technique-header">
+            <h1>Štimer za Gitaru</h1>
+            <p>Precizno štimovanje gitare u realnom vremenu</p>
+        </header>
+
+        <main class="technique-main">
+            <section class="technique-section">
+                <h2>O Aplikaciji</h2>
+                <p>Štimer za Gitaru je besplatna web aplikacija koja vam omogućava precizno štimovanje vaše gitare kroz mikrofon vašeg uređaja. Podržava standardno štimovanje (E A D G B E) i pruža vizuelne i zvučne povratne informacije za precizno štimovanje.</p>
+                
+                <div class="app-preview">
+                    <img src="../assets/stimer.png" alt="Guitar Tuner Interface">
+                    <a href="stimer/stimer.html" class="cta-button">Pokreni Štimer</a>
+                </div>
+            </section>
+
+            <section class="technique-section">
+                <h2>Funkcionalnosti</h2>
+                <ul class="features-list">
+                    <li>Precizna detekcija frekvencije u realnom vremenu</li>
+                    <li>Vizuelni prikaz odstupanja od željene note</li>
+                    <li>Zvučna potvrda kada je žica naštimovana</li>
+                    <li>Podržava standardno štimovanje (E A D G B E)</li>
+                    <li>Jednostavan i intuitivan interfejs</li>
+                    <li>Radi na svim modernim browserima</li>
+                </ul>
+            </section>
+
+            <section class="technique-section">
+                <h2>Kako Koristiti</h2>
+                <ol class="technique-steps">
+                    <li>Dozvolite pristup mikrofonu kada vas browser pita</li>
+                    <li>Izaberite žicu koju želite da štimujete</li>
+                    <li>Odsvirajte žicu i pratite pokazivač</li>
+                    <li>Podesite zategnutost žice prema uputstvima</li>
+                    <li>Sačekajte zvučni signal koji potvrđuje da je žica naštimovana</li>
+                </ol>
+            </section>
+
+            <section class="technique-tips">
+                <h3>Saveti za Štimovanje</h3>
+                <p>• Koristite u tihom okruženju za najbolje rezultate</p>
+                <p>• Držite gitaru blizu mikrofona</p>
+                <p>• Štimujte od najdeblje ka najtanjoj žici</p>
+                <p>• Proverite štim posle zamene žica</p>
+            </section>
+        </main>
+
+        <footer>
+            <h3>Pratite me na: </h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/pavle381"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/pavle381"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>Copyright: Pavle Paunović 2024</p>
+        </footer>
+        
+        <script type="module" src="../javascript/main.mjs"></script>
+        <script type="module" src="../javascript/scroll-from-header/_scroll-from-header.mjs"></script>
+    </body>
+</html>
