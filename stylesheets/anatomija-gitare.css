@@ -90,19 +90,21 @@
     color: white;
 }
 
-.next-btn {
+.navigation-btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
     background-color: #e74c3c;
-    padding: 1rem;
-    width: 95%;
     color: white;
+    text-align: center;
+    text-decoration: none;
     border: none;
-}
-
-.next-btn {
-    background-color: #e74c3c;
-
-}
-
-.next-btn:hover {
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-btn:hover {
+    background-color: #c0392b;
+    color: white;
+    text-decoration: none;
 }

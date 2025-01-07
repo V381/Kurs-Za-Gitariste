@@ -1,0 +1,33 @@
+/* Override Bootstrap grid spacing */
+.container, .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100% !important;
+    max-width: none;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0!important;
+}
+
+.col, [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Ensure the nav takes full width */
+nav {
+    width: 100% !important;
+    padding: 0 2rem !important;
+    box-sizing: border-box;
+}
+
+/* Fix potential body margin */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}

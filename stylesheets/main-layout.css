@@ -320,3 +320,23 @@ footer p {
 .m-top {
     margin-top: 5rem;
 }
+
+.navigation-btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-btn:hover {
+    background-color: #c0392b;
+    color: white;
+    text-decoration: none;
+}
+
