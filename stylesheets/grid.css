@@ -1,0 +1,23 @@
+  /* CSS Grid System */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.span-12 {
+    grid-column: span 12;
+}
+
+.span-6 {
+    grid-column: span 12;
+}
+
+@media (min-width: 768px) {
+    .span-6 {
+        grid-column: span 6;
+    }
+}

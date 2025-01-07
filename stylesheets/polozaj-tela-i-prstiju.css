@@ -1,0 +1,70 @@
+.main {
+    background-color: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.section {
+    margin: 4rem 0;
+}
+
+.section-title {
+    color: #e74c3c;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    grid-column: span 12;
+}
+
+.card {
+    background: #333;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    height: 100%;
+}
+
+.card h3 {
+    color: #e74c3c;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: #ddd;
+    margin-bottom: 1rem;
+}
+
+.technique-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    background: #444;
+    display: block;
+}
+
+.img-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.important-note {
+    background: #e74c3c;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+/* Content width control */
+.content-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
